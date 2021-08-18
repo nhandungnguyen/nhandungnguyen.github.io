@@ -49,3 +49,238 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size:16px;
+}
+
+body {
+    margin: 1rem auto;
+    width: 100%;
+}
+
+* {
+    background-color:whitesmoke
+}
+
+
+/*--HeaderFooter--*/
+
+header {
+    margin-bottom: 120px;
+    margin-left: none;
+    margin-right: none;
+}
+
+footer {
+    font-family: sans-serif; 
+    text-align: left;
+}
+
+
+/* Body & Main  */
+
+body {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 1rem;
+    min-width: 35rem;
+    margin: 0 auto;
+}
+
+main {
+    background-color:whitesmoke;
+    background-repeat: no-repeat;
+    border: 1.5px solid black;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+article {
+   order: 1;
+   border-right: 1.5px solid;
+   padding: 1rem;
+}
+
+.article-image{
+    float: left;
+    margin-right: 1rem;
+}
+
+aside {
+   order: 2;
+   flex-basis: 25rem;
+   padding: 1rem;
+}
+
+.subsection {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/* Imported Typfaces */
+
+@font-face {
+    font-family:Lato;
+    src: url(../fonts/lato-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+
+    font-family:josefinslab;
+    src: url(../fonts/josefinslab-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:montserrat;
+    src: url(../fonts/montserrat-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+
+    font-family:opensans;
+    src: url(../fonts/opensans-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:roboto;
+    src: url(../fonts/roboto-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+
+    font-family:robotoslab;
+    src: url(../fonts/robotoslab-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:rozhaone;
+    src: url(../fonts/rozhaone-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+
+    font-family:ultra;
+    src: url(../fonts/ultra-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+
+
+/* Typography Styles */
+
+h1 {
+    font-family:"opensans", sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    }
+
+h1 {
+    transform: rotate(-12deg);
+    outline: 0;
+    padding: 0;
+}
+
+.blog{
+    text-decoration-line: line-through;
+    width: 9rem;
+    height: 5rem;
+    color: black;
+}
+
+h2 {
+    font-family:"roboto", sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+h3 {
+    font-family: "opensans", sans-serif;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+.expand {
+    font-size: .5rem; 
+    text-decoration: none;
+
+}
+
+.article-image {
+float: left;        
+}
+
+
+/* Navigation & Links */
+
+nav {
+    border-top: .03125rem solid;
+    border-bottom: .03125rem solid;
+    word-spacing: 5rem;
+    line-height: 5rem;
+    margin-left: 3rem;
+}
+
+nav a {
+    text-decoration: none;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    padding: 1.5rem;
+    color: lightskyblue;
+}
+    
+nav a:focus,
+nav a:hover {
+    color: whitesmoke;
+    background-color: lightskyblue;
+}
+    
+nav a:active {
+    text-decoration-line: line-through;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.blog{
+    transform: rotate(-12deg);
+    outline: 0;
+    padding: 0;
+}
+
+figure {
+    margin: 0px;       
+}
+
+button {
+    color: whitesmoke; 
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2rem;
+    background-color: blue;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}

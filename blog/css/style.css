@@ -73,8 +73,8 @@ body {
 
 header {
     margin-bottom: 120px;
-    margin-left: none;
-    margin-right: none;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 footer {
@@ -194,7 +194,7 @@ h1 {
     }
 
 h1 {
-    transform: rotate(-12deg);
+    transform: rotate(-7deg);
     outline: 0;
     padding: 0;
 }
